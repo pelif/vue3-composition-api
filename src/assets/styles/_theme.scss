@@ -1,0 +1,62 @@
+$defaultFont: "OPen Sans", sans-serif; 
+$background: #eee;
+
+body {
+    font: $defaultFont;  
+    text-align: center;
+    background: $background;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li {
+    background: #ccc; 
+    padding: 10px; 
+    color: #666; 
+    margin-top: 10px; 
+    border-radius: 12px;
+    border: #bbb; 
+}
+
+li:hover {
+    background: #aaa;   
+    color:#222; 
+}
+
+input[type=text] {
+    width:80%;
+    padding:12px 8px;
+    margin-top:10px;
+    font-family: $defaultFont;
+    border: 1px solid #ccc; 
+    border-radius: 7px;
+}
+
+input[type=text]:hover {    
+    border: 1px solid #aaa;     
+}
+
+
+input[type=checkbox] {
+    padding: 8px;
+}
+
+button[type=submit] {
+    width:80%; 
+    padding: 14px 8px; 
+    text-align: center;
+    background-color: rgb(47, 47, 226);
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    border:none;
+    margin-top:12px;
+    border-radius: 12px;
+}
+
+button[type=submit]:hover {
+    background-color: rgb(87, 87, 196);
+    cursor: pointer; 
+}    

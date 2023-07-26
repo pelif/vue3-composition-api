@@ -18,5 +18,8 @@ export default class TodoService {
         return axios.get(`/todos/${id}`)
     }
 
+    static async deleteTodo(id) {
+        return axios.delete(`/todos/${id}`)
+    }
 
 }
